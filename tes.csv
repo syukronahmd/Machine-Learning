@@ -1,0 +1,6 @@
+Date,Time,Latitude,Longitude,Type,Depth,Depth Error,Depth Seismic Stations,Magnitude,Magnitude Type,Magnitude Error,Magnitude Seismic Stations,Azimuthal Gap,Horizontal Distance,Horizontal Error,Root Mean Square,ID,Source,Location Source,Magnitude Source,Status
+01/02/1965,13:44:18,19.246,145.616,Earthquake,131.6,,,6,MW,,,,,,,ISCGEM860706,ISCGEM,ISCGEM,ISCGEM,Automatic
+12/20/1966,15:30:01,37.3021667,-116.4083333,Nuclear Explosion,1.2,31.61,16,5.62,ML,0.245,10,261,1.476,99,0.86,CI3329931,CI,CI,CI,Reviewed
+04/26/1968,15:00:02,37.2953333,-116.4556667,Nuclear Explosion,1.2,31.61,17,5.63,ML,0.125,6,261,1.438,99,1.03,CI3342128,CI,CI,CI,Reviewed
+12/19/1968,16:30:01,37.2315,-116.4736667,Nuclear Explosion,1.4,31.61,16,5.52,ML,0.219,6,257,1.415,99,1.36,CI3342181,CI,CI,CI,Reviewed
+07/28/2019,21:25:00,7.42,106.03,Nuclear Explosion,10.0,,,5.20,,,,,,,,,,,,Reviewed

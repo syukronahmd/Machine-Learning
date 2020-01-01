@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="my-5">
+ <div class="container">
+	<div class="pt-5">
+		<h1 class="text-center">Earthquake</h1>
+		<br>
+	</div>
+	<div class="row">
+		<div class="col">
+			<img src="{{ url_for('static', filename='images/gempa.jpg') }}" class="img-fluid" alt="Gempa Bumi">
+		</div>
+		<div class="col">
+			<p class="text-justify">
+				An earthquake (also known as a quake, tremor or temblor) is the shaking of the surface of the Earth, resulting from the sudden release of energy in the Earth's lithosphere that creates seismic waves. Earthquakes can range in size from those that are so weak that they cannot be felt to those violent enough to toss people around and destroy whole cities. The seismicity, or seismic activity, of an area is the frequency, type and size of earthquakes experienced over a period of time. The word tremor is also used for non-earthquake seismic rumbling.
+
+At the Earth's surface, earthquakes manifest themselves by shaking and displacing or disrupting the ground. When the epicenter of a large earthquake is located offshore, the seabed may be displaced sufficiently to cause a tsunami. Earthquakes can also trigger landslides, and occasionally volcanic activity.
+
+In its most general sense, the word earthquake is used to describe any seismic event—whether natural or caused by humans—that generates seismic waves. Earthquakes are caused mostly by rupture of geological faults, but also by other events such as volcanic activity, landslides, mine blasts, and nuclear tests. An earthquake's point of initial rupture is called its focus or hypocenter. The epicenter is the point at ground level directly above the hypocenter. (Source of Wikipedia)
+			</p>
+		</div>
+	</div>
+ </div>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="my-5">
+  <div class="container">
+	<div class="pt-5">
+		<h1 class="text-center">Visualization </h1>
+		<br>
+	</div>
+	<div class="row">
+		<div class="col">
+			<img src="{{ url_for('static', filename='images/visualisasi.png') }}" class="img-fluid mx-auto d-block" alt="Visualisasi Gempa Bumi">
+		</div>
+	</div>
+	<div class="pl-5">
+		<div class="pl-3">
+			<h5>Note	:</h5>
+		</div>
+		<div>
+			<img src="{{ url_for('static', filename='images/notes.PNG') }}">
+		</div>
+	</div>
+	<div class="my-5">
+		<h1 class="text-center">Confusion Matrix</h1>
+	</div>
+	<div class="row">
+		<div class="col">
+			<img src="{{ url_for('static', filename='images/confusion-matrix.jpg') }}" class="img-fluid mx-auto d-block" alt="Confusion Matrix">
+		</div>
+	</div>
+  </div>
+</div>
+{% endblock %}
